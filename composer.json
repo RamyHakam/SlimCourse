@@ -1,0 +1,13 @@
+{
+    "name": "ramy/slim-course",
+    "description": "Slim API course for RTC",
+    "authors": [
+        {
+            "name": "Ramy Hakam",
+            "email": "pencilsoft1@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.12"
+    }
+}
