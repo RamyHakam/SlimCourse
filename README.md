@@ -1,4 +1,2 @@
 # SlimCourse
-Code for Slime Course in RTC Giza
-
-anything
+code for Slim  Rest API Course in RTC Giza 
