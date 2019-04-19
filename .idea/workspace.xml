@@ -10,9 +10,9 @@
     <option name="TRACKING_ENABLED" value="true" />
 =======
     <list default="true" id="81ae2b30-6634-4565-aacd-b4aad99871dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SlimCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SlimCourse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
 >>>>>>> dafe3a7a555f26be347e97f1110294dff622b579
@@ -65,12 +65,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="120">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <element signature="e#129#184#0#PHP" expanded="true" />
+                <element signature="e#129#162#0#PHP" expanded="true" />
               </folding>
 >>>>>>> dafe3a7a555f26be347e97f1110294dff622b579
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -156,6 +174,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/API/login.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
@@ -188,6 +207,11 @@
             <path>
               <item name="SlimCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="SlimCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SlimCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SlimCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SlimCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -306,12 +330,12 @@
       <updated>1555165520170</updated>
       <workItem from="1555165521559" duration="1577000" />
       <workItem from="1555408326485" duration="34000" />
-      <workItem from="1555680662693" duration="1303000" />
+      <workItem from="1555680662693" duration="5034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2914000" />
+    <option name="totallyTimeSpent" value="6645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="25" width="963" height="743" extended-state="6" />
@@ -391,12 +415,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="e#129#184#0#PHP" expanded="true" />
+            <element signature="e#129#162#0#PHP" expanded="true" />
           </folding>
 >>>>>>> dafe3a7a555f26be347e97f1110294dff622b579
         </state>
