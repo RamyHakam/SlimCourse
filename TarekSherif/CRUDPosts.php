@@ -24,7 +24,7 @@
 // });
 
 
-$app->post('/AddPost',function (\Slim\Http\Request $request ,\Slim\Http\Response $response){
+$app->post('TarekSheif/AddPost',function (\Slim\Http\Request $request ,\Slim\Http\Response $response){
 
      $data=$request->getParsedBody();
 
