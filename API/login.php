@@ -37,3 +37,4 @@ $app->post('/signUpUser',function (\Slim\Http\Request $request ,\Slim\Http\Respo
 
 
 });
+
