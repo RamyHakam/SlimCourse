@@ -13,11 +13,18 @@ use Slim\Http\Request as Request;
 use Slim\Http\Response as Response;
 
 
-$app = new \Slim\App;
+
+// Instantiate the app
+$settings = require __DIR__ . '/../Config/settings.php';
+$app = new \Slim\App($settings);
+// Set up dependencies
+require __DIR__ . '/../Config/dependiancies.php';
 
 
  require '../raouf/raouf.php';
  require '../TarekSherif/TarekSherif.php';
+ require  '../API/login.php';
+require "../API/CRUDPosts.php";
 
 
 $app->run();

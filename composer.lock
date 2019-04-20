@@ -1,14 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-<<<<<<< HEAD
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-=======
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
->>>>>>> dafe3a7a555f26be347e97f1110294dff622b579
         "This file is @generated automatically"
     ],
-    "content-hash": "58e8daf2feaa933eff32b5aae8af39ad",
+    "content-hash": "57f723c50c70baf9b1037f97ff1f316e",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -86,6 +82,55 @@
                 "routing"
             ],
             "time": "2018-02-13T20:26:39+00:00"
+        },
+        {
+            "name": "parse/php-sdk",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/parse-community/parse-php-sdk.git",
+                "reference": "2f3984f52b548f176931c9ddc7a65b3e03304b6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/parse-community/parse-php-sdk/zipball/2f3984f52b548f176931c9ddc7a65b3e03304b6a",
+                "reference": "2f3984f52b548f176931c9ddc7a65b3e03304b6a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jms/serializer": "1.7.1",
+                "phpdocumentor/phpdocumentor": "~2.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "^3.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Parse\\": "src/Parse/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Parse",
+                    "homepage": "https://github.com/parse-community/parse-php-sdk/graphs/contributors"
+                }
+            ],
+            "description": "Parse PHP SDK",
+            "homepage": "https://github.com/parse-community/parse-php-sdk",
+            "keywords": [
+                "parse",
+                "sdk"
+            ],
+            "time": "2019-01-30T21:28:56+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -238,16 +283,16 @@
         },
         {
             "name": "slim/slim",
-            "version": "3.12.0",
+            "version": "3.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
-                "reference": "f4947cc900b6e51cbfda58b9f1247bca2f76f9f0"
+                "reference": "eaee12ef8d0750db62b8c548016d82fb33addb6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/f4947cc900b6e51cbfda58b9f1247bca2f76f9f0",
-                "reference": "f4947cc900b6e51cbfda58b9f1247bca2f76f9f0",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/eaee12ef8d0750db62b8c548016d82fb33addb6b",
+                "reference": "eaee12ef8d0750db62b8c548016d82fb33addb6b",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +350,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2019-01-15T13:21:25+00:00"
+            "time": "2019-04-16T16:47:29+00:00"
         }
     ],
     "packages-dev": [],
