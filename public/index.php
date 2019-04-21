@@ -24,7 +24,7 @@ require __DIR__ . '/../Config/dependiancies.php';
  require '../raouf/raouf.php';
  require '../TarekSherif/TarekSherif.php';
  require  '../API/login.php';
- //require "../API/CRUDPosts.php";
+ require "../API/CRUDPosts.php";
  require '../raouf/CRUDPosts.php';
 
 
