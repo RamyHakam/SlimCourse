@@ -7,8 +7,8 @@
  */
 
  require_once '../vendor/autoload.php';
-
-
+ require_once '../Classes/CustomBasicAutho.php';
+require_once  '../Classes/OneSessionMiddleware.php';
 use Slim\Http\Request as Request;
 use Slim\Http\Response as Response;
 
@@ -19,7 +19,7 @@ $settings = require __DIR__ . '/../Config/settings.php';
 $app = new \Slim\App($settings);
 // Set up dependencies
 require __DIR__ . '/../Config/dependiancies.php';
-
+require  __DIR__.'/../Config/middlewares.php';
 
  require '../raouf/raouf.php';
  require '../TarekSherif/TarekSherif.php';

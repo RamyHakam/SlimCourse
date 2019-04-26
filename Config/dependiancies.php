@@ -66,8 +66,8 @@ $container['ParseCloud'] = function ($c) {
     $ParseCloud=new Parse\ParseCloud;
     return $ParseCloud;
 };
-////JWT object
-//$container['JWT'] = function ($c) {
-//    $JWT=new \Firebase\JWT\JWT;
-//    return $JWT;
-//};
+//JWT object
+$container['JWT'] = function ($c) {
+    $JWT=new \Firebase\JWT\JWT;
+    return $JWT;
+};
