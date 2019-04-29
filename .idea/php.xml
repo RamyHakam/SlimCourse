@@ -19,6 +19,7 @@
       <path value="$PROJECT_DIR$/vendor/tuupola/slim-jwt-auth" />
       <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
     </include_path>
   </component>
 </project>

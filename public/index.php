@@ -12,6 +12,7 @@ require_once  '../Classes/OneSessionMiddleware.php';
 use Slim\Http\Request as Request;
 use Slim\Http\Response as Response;
 
+use Tuupola\Middleware\HttpBasicAuthentication;
 
 
 // Instantiate the app
@@ -23,10 +24,18 @@ require  __DIR__.'/../Config/middlewares.php';
 
  require '../raouf/raouf.php';
  require '../TarekSherif/TarekSherif.php';
- require  '../API/login.php';
+ //require  '../API/login.php';
  require "../API/CRUDPosts.php";
  require '../raouf/CRUDPosts.php';
 
+
+ $app->post('/login',\Controllers\LoginController::class)->add(new HttpBasicAuthentication([
+
+     "authenticator" => new CustomBasicAutho(),
+     "before" => function ($request, $arguments) {
+         return $request->withAttribute("user", $arguments["user"]);
+     }
+ ]));
 
 $app->run();
 
