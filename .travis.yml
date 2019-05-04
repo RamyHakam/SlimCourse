@@ -19,7 +19,7 @@ matrix:
 befor_script:
   -  composer install
 #script: phpunit --configuration phpunit.xml --coverage-text
-script: vendor/bin/phpunit
+script: /vendor/bin/phpunit
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
