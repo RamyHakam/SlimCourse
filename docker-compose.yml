@@ -10,6 +10,13 @@ services:
       - ./:/var/www/html
     expose:
       - 9000
+  composer-engine:
+    restart: 'no'
+    image: composer
+    command: install  --no-dev --optimize-autoloader --working-dir=/var/www/html
+    volumes_from:
+      - php-slim-server
+
   nginx-slim-server:
     build: ./nginx
     ports:
