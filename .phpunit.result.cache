@@ -1,1 +1,1 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":89:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:1:{s:29:"TestTest::testIfTestIsWorking";d:0.004;}}}
+C:37:"PHPUnit\Runner\DefaultTestResultCache":266:{a:2:{s:7:"defects";a:1:{s:33:"DemoClassTest::testDevasionByZoro";i:4;}s:5:"times";a:4:{s:29:"TestTest::testIfTestIsWorking";d:0;s:32:"DemoClassTest::testIfAddationRun";d:0.003;s:33:"DemoClassTest::testDevasionByZoro";d:0;s:31:"DemoClassTest::testIfXEqualZero";d:0;}}}

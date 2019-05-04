@@ -32,11 +32,7 @@ class LoginController
     {
         // TODO: Implement __invoke() method.
         if($request->getAttribute('user')){
-
-
-
             $this->container->get('logger')->info('user login with name ',['name'=>$request->getAttribute('user')]);
-
                  $MyJWT=$this->container->get('JWT');
             $now = new DateTime();
             $future = new DateTime("now +10 minutes");
