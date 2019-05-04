@@ -13,8 +13,12 @@ class DemoClass
 {
 
 
+    private  $testClass;
+public function __construct(UsedClass $class)
+{
+    $this->testClass=$class;
 
-
+}
 
 
     public  function  Addation($x,$y){
@@ -37,6 +41,13 @@ class DemoClass
 
     public  function  multiplay($x,$y){
         return $x*$y;
+    }
+
+    public  function  testy(){
+        if(!$this->testClass->runMe()){
+            return "mock code";
+        }
+        return "default code";
     }
 
 
