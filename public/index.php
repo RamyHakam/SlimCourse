@@ -25,8 +25,17 @@ require  __DIR__.'/../Config/middlewares.php';
  require '../raouf/raouf.php';
  require '../TarekSherif/TarekSherif.php';
  //require  '../API/login.php';
- require "../API/CRUDPosts.php";
- require '../raouf/CRUDPosts.php';
+// require "../API/CRUDPosts.php";
+ //require '../raouf/CRUDPosts.php';
+
+
+
+ $app->post('/AddPost',\Controllers\CRUDController::class.':addPost');
+ $app->get('/getPost[/{postId}]',\Controllers\CRUDController::class.':getPost');
+ $app->put('/updatePost',\Controllers\CRUDController::class.':updatePost');
+ $app->delete('/deletePost[/{postId}]',\Controllers\CRUDController::class.':deletePost');
+
+
 
 
  $app->post('/login',\Controllers\LoginController::class)->add(new HttpBasicAuthentication([
