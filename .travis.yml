@@ -6,7 +6,7 @@ php:
 
 
   # aliased to a recent 7.x version
-  - 7.0
+  - 7.3
 
 # optionally set up exclutions and allowed failures in the matrix
 matrix:
