@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  php-slim-server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: php-slim-server
+    volumes:
+      - ./:/var/www/html
+    expose:
+      - 9000
+  nginx-slim-server:
+    build: ./nginx
+    ports:
+      - 7000:80
+    hostname: SlimCourse
+    links:
+      - php-slim-server
+    container_name: nginx-slim-Server
+    volumes:
+      - ./:/var/www/html
