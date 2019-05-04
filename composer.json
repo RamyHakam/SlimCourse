@@ -16,6 +16,9 @@
         "monolog/monolog": "^1.24",
         "phpunit/phpunit": "^8.1"
     },
+    "require-dev": {
+        "phpunit/phpunit": "6.2"
+    },
     "autoload": {
         "psr-4": {
             "Controllers\\": "Controllers"
