@@ -35,7 +35,7 @@ class DemoClassTest   extends  \PHPUnit\Framework\TestCase
     public  function  testIfXEqualZero(){
 
         $result=$this->testClass->devison(0,5);
-        $this->assertEquals(0,$result);
+        $this->assertEquals(7,$result);
 
     }
 
