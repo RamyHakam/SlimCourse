@@ -20,5 +20,8 @@
         "psr-4": {
             "Controllers\\": "Controllers"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
